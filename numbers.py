@@ -6,7 +6,7 @@ min = 0
 max = 12
 no_of_tries = 3
 t = 1
-secret = random.choice(range(min, max))
+secret = random.choice(range(min, max+1))
 
 print("can you guess my number" + "\n")
 while True:
